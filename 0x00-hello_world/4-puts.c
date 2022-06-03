@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * Description:main - prints out a sting t stdout.
+ * Description: main - prints out a sting to stdout.
  * return: 0 if success.
  */
 int main(void)
