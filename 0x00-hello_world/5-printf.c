@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- * Description: main -print ou to stdout
+ * Description: main -print out to stdout
  * Return: 0 if sucess.
  */
 int main(void)
