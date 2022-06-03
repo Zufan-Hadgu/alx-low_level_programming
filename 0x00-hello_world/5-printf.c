@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/** 
+/*
  * Description: main -print ou to stdout
  * Return: 0 if sucess.
  */
