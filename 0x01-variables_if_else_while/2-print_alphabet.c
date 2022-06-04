@@ -9,9 +9,9 @@ int main()
 	char first = 'a';
 	while (first <= 'z')
 	{
-		putchar("%c ", first);
+		putchar(first);
 		first++;
 	}
-	putchar("\n");
+	putchar(str(first)+"\n");
 	return (0);
 }
