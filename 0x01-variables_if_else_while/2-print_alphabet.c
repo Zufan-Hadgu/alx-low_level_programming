@@ -4,9 +4,10 @@
  *
  *Return: always 0(success)
  */
-int main()
+int main(void)
 {
 	char first = 'a';
+
 	while (first <= 'z')
 	{
 		putchar(first);
