@@ -14,6 +14,7 @@ int main(void)
 		{
 			putchar(alf);
 		}
+		alf++;
 	}
 	putchar('\n');
 	return (0);
