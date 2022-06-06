@@ -2,7 +2,7 @@
 /**
  *main-Entry point
  *
- *Return: always 0(success)
+ *Return:always 0(success)
  */
 int main(void)
 {
@@ -10,22 +10,19 @@ int main(void)
 
 	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
+		for (a = '0'; a <= '9'; a++)
 		{
-			 for (c = '0'; c <= '9'; c++)
-			 {
-				  if (a < b && b < c)
-				  {
-					  putchar(a);
-					  putchar(b);
-					  putchar(c);
-					   if (c != '7')
-					   {
-						   putchar(',');
-						   putchar(' ');
-					   }
-				  }
-			 }
+			for (a = '0'; a <= '9'; a++)
+			{
+				if (a < b && b < c)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
