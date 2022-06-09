@@ -14,6 +14,6 @@ int main(void)
 		_puthchar(word[i]);
 		i++;
 	}
-	_putchar('\n');
+	_puthchar('\n');
 	return (0);
 }
